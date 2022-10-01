@@ -23,7 +23,7 @@ email: tba@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   大家好，歡迎來到Bagel2Ace，一些關於網球的分享
 domain: bagel2ace.github.io
-baseurl: "https://bagel2ace.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
