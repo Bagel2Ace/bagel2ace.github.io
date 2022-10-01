@@ -1,0 +1,27 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+pre, code {
+    font-family: $base-font-family;
+    font-size: 18.75px;
+    border: 1px solid #e8e8e8;
+    border-radius: 3px;
+    background-color: #f7f7f7;
+}
+
+.highlighter-rouge .highlight {
+    background: #f7f7f7;
+}
+
+.post-title {
+    font-size: 2.15rem;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+
+ul li::marker {
+  color: #04a0de;
+}
