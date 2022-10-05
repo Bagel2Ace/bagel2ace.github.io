@@ -263,6 +263,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages (~> 215)
+  jekyll-commonmark-ghpages
   jekyll-feed (~> 0.12)
   jemoji
   minima
