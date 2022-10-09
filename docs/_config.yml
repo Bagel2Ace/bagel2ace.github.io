@@ -42,6 +42,8 @@ header_pages:
   - header/blogs.html
   - header/podcasts.html
 
+disqus:
+  shortname: https-www-bagel2ace-com
 markdown: CommonMarkGhPages
 
 commonmark:
