@@ -21,7 +21,7 @@
 title: Bagel2Ace
 email: bagel2ace@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  大家好！欢迎来到bagel2ace的channel，这里一切都关于 🎾
+  大家好！欢迎来到bagel2ace的频道，这里的一切都关于 🎾
 domain: bagel2ace.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -41,6 +41,7 @@ defaults:
 header_pages:
   - header/blogs.html
   - header/podcasts.html
+  - header/columns.html
 
 disqus:
   shortname: https-www-bagel2ace-com
