@@ -17,13 +17,22 @@ layout: default
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
+
       {%- if page.author -%}
         • {% for author in page.author %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
+      {%- endif -%}
+    </p>
+    <p class="post-meta">
+      {%- if page.read_time -%}
+        {% assign count = 0 %}
+        文字阅读时间: {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 500 | plus: 1 }}分钟
+      {%- endif -%}
+    </p>
+
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
@@ -52,4 +61,6 @@ layout: default
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   {% endif %}
+
+
 </article>
