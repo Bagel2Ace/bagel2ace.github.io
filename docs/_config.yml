@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bagel2Ace
+title: 貝果 ACE
 email: bagel2ace@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   大家好！欢迎来到bagel2ace的频道，这里的一切都关于 🎾
@@ -50,6 +50,8 @@ markdown: CommonMarkGhPages
 commonmark:
   options: ["UNSAFE", "SMART", "FOOTNOTES"]
   extensions: ["strikethrough", "autolink", "table", "tagfilter"]
+
+show_excerpts: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
