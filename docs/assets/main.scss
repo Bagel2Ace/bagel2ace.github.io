@@ -4,6 +4,24 @@
 
 @import "minima";
 
+.site-title {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 54px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    float: none;
+}
+
+.site-nav {
+    float: none;
+    display: flex;
+    justify-content: center;
+    line-height: 54px;
+}
+
 pre, code {
     font-family: $base-font-family;
     font-size: 18.75px;
@@ -20,4 +38,20 @@ pre, code {
     font-size: 2.15rem;
     letter-spacing: -1px;
     line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+hr {
+    margin-block-end: 1em;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }

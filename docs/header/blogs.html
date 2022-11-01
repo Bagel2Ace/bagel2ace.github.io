@@ -10,7 +10,7 @@ permalink: /blogs/
     {%- for post in site.categories.blogs -%}
     <li>
       <h3>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <span class="post-meta">{{ post.date | date: date_format }} | by {{ post.author }}</span>
         <a class="post-link" href="{{ post.url | relative_url }}">
           {{ post.title | escape }}
         </a>
